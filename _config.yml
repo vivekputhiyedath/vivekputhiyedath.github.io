@@ -1,0 +1,72 @@
+# Site
+repository: vivekputhiyedath/vivekputhiyedath.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Vivek Puthiyedath
+title: Lead Software Engineer
+email: vivek2viv@gmail.com
+website: vivekputhiyedath.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: vivekputhiyedath
+github_username:  vivekputhiyedath
+# stackoverflow_username: "vivekputhiyedath"
+# dribbble_username: vivekputhiyedath
+# facebook_username: vivekputhiyedath
+# flickr_username: vivekputhiyedath
+# instagram_username: vivekputhiyedath
+linkedin_username: linktoviv
+# xing_username: vivekputhiyedath
+# pinterest_username: vivekputhiyedath
+# youtube_username: vivekputhiyedath
+# googleplus_username: +vivekputhiyedath
+# orcid_username: vivekputhiyedath
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  C/C++ Developer | System Programmer | Kernel Developer | Cyber Security Enthusiast
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Qualys Inc
+        link: qualys.com
+        sub_title: Lead Software Engineer
+        caption: July 2020 - Present
+        quote: >
+          EDR, FIM, Minfilter Driver, Network Driver
+        description: | # this will include new lines to allow paragraphs
+          Working on FIM, EDR products
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Government Engineering College Idukki
+        caption: 2013 - 2015
+        sub_title: M.Tech Network Engineering
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
